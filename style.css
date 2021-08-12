@@ -73,16 +73,16 @@
  @media screen and (max-width: 900px) {
   .wrapper{
     height: 250px;
-    width: 400px;
+    width: 430px;
   }
 }
  @media screen and (max-width: 630px) {
   .wrapper{
     height: 250px;
-    width: 400px;
+    width: 430px;
   }
   input[type=text] {
-    width: 80px;
+    width: 60px;
     }
 }
  @media screen and (max-width: 490px) {
@@ -91,49 +91,55 @@
       width: 350px;
     }
     input[type=text] {
-      width: 70px;
+      width: 60px;
       }
   }
  @media screen and (max-width: 430px) {
     .wrapper{
-      height: 240px;
-      width: 320px;    
+      height: 190px;
+      width: 290px;    
     }
     input[type=text] {
-      width: 70px;
+      width: 50px;
+      }
+      #title,#outputtext{
+        font-size: 20px;
       }
   }
 
   @media screen and (max-width: 410px) {
     .wrapper{
-      height: 220px;
-      width: 310px;    
+      height: 190px;
+      width: 290px;    
     }
     input[type=text] {
-    width: 70px;
+    width: 50px;
+    }
+    #title,#outputtext{
+      font-size: 20px;
     }
   }
   @media screen and (max-width: 390px) {
     .wrapper{
-      height: 200px;
-      width: 300px;    
-    }
-    #title,#outputtext{
-      font-size: 22px;
-    }
-    input[type=text] {
-      width: 70px;
-      }
-  }
-  @media screen and (max-width: 380px) {
-    .wrapper{
-      height: 180px;
+      height: 190px;
       width: 290px;    
     }
     #title,#outputtext{
       font-size: 20px;
     }
     input[type=text] {
-      width: 70px;
+      width: 50px;
+      }
+  }
+  @media screen and (max-width: 380px) {
+    .wrapper{
+      height: 190px;
+      width: 290px;    
+    }
+    #title,#outputtext{
+      font-size: 20px;
+    }
+    input[type=text] {
+      width: 50px;
       }
     }
