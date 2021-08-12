@@ -19,7 +19,7 @@
     font-size: 27px;
   }
   input[type=text] {
-    width: 170px;
+    width: 140px;
     box-sizing: border-box;
     border: 2.3px solid #ccc;
     font-size: 20px;
@@ -81,32 +81,36 @@
     height: 250px;
     width: 400px;
   }
+  input[type=text] {
+    width: 80px;
+    }
 }
  @media screen and (max-width: 490px) {
     .wrapper{
       height: 250px;
       width: 350px;
     }
+    input[type=text] {
+      width: 70px;
+      }
   }
  @media screen and (max-width: 430px) {
     .wrapper{
       height: 240px;
       width: 320px;    
     }
+    input[type=text] {
+      width: 70px;
+      }
   }
-  @media screen and (max-width: 430px) {
-    .wrapper{
-      height: 240px;
-      width: 320px;    
-    }
-  }
+
   @media screen and (max-width: 410px) {
     .wrapper{
       height: 220px;
       width: 310px;    
     }
     input[type=text] {
-    width: 100px;
+    width: 70px;
     }
   }
   @media screen and (max-width: 390px) {
@@ -117,6 +121,9 @@
     #title,#outputtext{
       font-size: 22px;
     }
+    input[type=text] {
+      width: 70px;
+      }
   }
   @media screen and (max-width: 380px) {
     .wrapper{
@@ -125,4 +132,8 @@
     }
     #title,#outputtext{
       font-size: 20px;
+    }
+    input[type=text] {
+      width: 70px;
+      }
     }
