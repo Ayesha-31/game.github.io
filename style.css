@@ -1,0 +1,128 @@
+
+  body {
+    background: url(bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 2rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  #title{
+    font-family: 'Monoton', cursive;
+    font-size: 26px;
+  }
+  #outputtext{
+    font-family: 'Cookie', cursive;
+    font-size: 27px;
+  }
+  input[type=text] {
+    width: 170px;
+    box-sizing: border-box;
+    border: 2.3px solid #ccc;
+    font-size: 20px;
+    background-color: rgb(252, 228, 228);
+  }
+  input:hover{
+    border-color:#8fcdff ;
+  }
+
+  #btn{
+    border-radius: 20%;
+    margin: 5px;
+    padding: 6px;
+
+  }
+  #btn:hover{
+    border-color:#ffa6c1;
+    color: red;
+    box-shadow: 0 0.5em 0.5em -0.4em #ffa6c1; 
+    transform: translateY(-0.15em);
+    cursor: pointer;
+  }
+
+ .wrapper{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+   border: 10px solid #370617;
+   border-radius: 50%;
+   margin: auto;
+   height: 255px;
+   width: 500px;
+   text-align: center;
+   background: linear-gradient(45deg, red, blue);
+  }
+
+ p{
+   color: white;
+   font-size: 20px;
+  }
+
+ #input {
+   width: 100px;
+   margin: 2px auto;
+  }
+
+ #btn {
+   margin: 25px auto auto 5px;
+  }
+
+ @media screen and (max-width: 900px) {
+  .wrapper{
+    height: 250px;
+    width: 400px;
+  }
+}
+ @media screen and (max-width: 630px) {
+  .wrapper{
+    height: 250px;
+    width: 400px;
+  }
+}
+ @media screen and (max-width: 490px) {
+    .wrapper{
+      height: 250px;
+      width: 350px;
+    }
+  }
+ @media screen and (max-width: 430px) {
+    .wrapper{
+      height: 240px;
+      width: 320px;    
+    }
+  }
+  @media screen and (max-width: 430px) {
+    .wrapper{
+      height: 240px;
+      width: 320px;    
+    }
+  }
+  @media screen and (max-width: 410px) {
+    .wrapper{
+      height: 220px;
+      width: 310px;    
+    }
+    input[type=text] {
+    width: 100px;
+    }
+  }
+  @media screen and (max-width: 390px) {
+    .wrapper{
+      height: 200px;
+      width: 300px;    
+    }
+    #title,#outputtext{
+      font-size: 22px;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    .wrapper{
+      height: 180px;
+      width: 290px;    
+    }
+    #title,#outputtext{
+      font-size: 20px;
+    }
